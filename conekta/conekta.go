@@ -48,10 +48,10 @@ import (
 
 const (
 	baseURLString       = "https://api.conekta.io"
-	apiVersion          = "1.0.0"
+	apiVersion          = "v1.0.0"
 	gonektaVersion      = "0.1"
 	userAgent           = "gonekta-" + gonektaVersion
-	mimeType            = "application/vnd.conekta." + apiVersion + "+json"
+	mimeType            = "application/vnd.conekta-" + apiVersion + "+json"
 	jsonMimeType        = "application/json"
 	headerUserAgent     = "User-Agent"
 	headerContentType   = "Content-Type"
