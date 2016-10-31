@@ -48,7 +48,7 @@ import (
 
 const (
 	baseURLString       = "https://api.conekta.io"
-	apiVersion          = "0.3.0"
+	apiVersion          = "1.0.0"
 	gonektaVersion      = "0.1"
 	userAgent           = "gonekta-" + gonektaVersion
 	mimeType            = "application/vnd.conekta." + apiVersion + "+json"
